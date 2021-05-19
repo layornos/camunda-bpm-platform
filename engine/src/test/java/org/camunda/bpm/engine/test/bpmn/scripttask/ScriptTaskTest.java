@@ -23,10 +23,8 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.fail;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.camunda.bpm.engine.ProcessEngineException;
@@ -34,14 +32,10 @@ import org.camunda.bpm.engine.ScriptCompilationException;
 import org.camunda.bpm.engine.ScriptEvaluationException;
 import org.camunda.bpm.engine.exception.NullValueException;
 import org.camunda.bpm.engine.impl.util.CollectionUtil;
-import org.camunda.bpm.engine.repository.Deployment;
 import org.camunda.bpm.engine.repository.ProcessDefinition;
 import org.camunda.bpm.engine.runtime.ProcessInstance;
 import org.camunda.bpm.engine.task.Task;
-import org.camunda.bpm.engine.test.util.PluggableProcessEngineTest;
 import org.camunda.bpm.model.bpmn.Bpmn;
-import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.junit.After;
 import org.junit.Test;
 
 /**
@@ -52,20 +46,13 @@ import org.junit.Test;
  * @author Christian Lipphardt (Groovy)
  *
  */
-public class ScriptTaskTest extends PluggableProcessEngineTest {
+public class ScriptTaskTest extends AbstractScriptTaskTest {
 
   private static final String JAVASCRIPT = "javascript";
   private static final String PYTHON = "python";
   private static final String RUBY = "ruby";
   private static final String GROOVY = "groovy";
   private static final String JUEL = "juel";
-
-  private List<String> deploymentIds = new ArrayList<String>();
-
-  @After
-  public void tearDown() throws Exception {
-    deploymentIds.forEach(deploymentId -> repositoryService.deleteDeployment(deploymentId, true));
-  }
 
   @Test
   public void testJavascriptProcessVarVisibility() {
@@ -614,31 +601,6 @@ public class ScriptTaskTest extends PluggableProcessEngineTest {
 
     Task task = taskService.createTaskQuery().singleResult();
     assertNotNull(task);
-  }
-
-  protected void deployProcess(BpmnModelInstance process) {
-    Deployment deployment = repositoryService.createDeployment()
-        .addModelInstance("testProcess.bpmn", process)
-        .deploy();
-      deploymentIds.add(deployment.getId());
-  }
-
-  protected void deployProcess(String scriptFormat, String scriptText) {
-    BpmnModelInstance process = createProcess(scriptFormat, scriptText);
-    deployProcess(process);
-  }
-
-  protected BpmnModelInstance createProcess(String scriptFormat, String scriptText) {
-
-    return Bpmn.createExecutableProcess("testProcess")
-      .startEvent()
-      .scriptTask()
-        .scriptFormat(scriptFormat)
-        .scriptText(scriptText)
-      .userTask()
-      .endEvent()
-    .done();
-
   }
 
   @Test
