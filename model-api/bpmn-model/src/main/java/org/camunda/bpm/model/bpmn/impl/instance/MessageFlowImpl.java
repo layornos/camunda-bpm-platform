@@ -16,10 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.BaseElement;
-import org.camunda.bpm.model.bpmn.instance.InteractionNode;
-import org.camunda.bpm.model.bpmn.instance.Message;
-import org.camunda.bpm.model.bpmn.instance.MessageFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.InteractionNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.Message;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.MessageFlow;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnEdge;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

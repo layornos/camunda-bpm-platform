@@ -19,8 +19,8 @@ package org.camunda.bpm.model.bpmn.impl.instance;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN20_NS;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_POTENTIAL_OWNER;
 
-import org.camunda.bpm.model.bpmn.instance.HumanPerformer;
-import org.camunda.bpm.model.bpmn.instance.PotentialOwner;
+import org.camunda.bpm.model.bpmn.instance.domain.resources.human.HumanPerformer;
+import org.camunda.bpm.model.bpmn.instance.domain.resources.human.PotentialOwner;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

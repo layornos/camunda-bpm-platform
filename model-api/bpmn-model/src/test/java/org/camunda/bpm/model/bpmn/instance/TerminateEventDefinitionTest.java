@@ -16,6 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.TerminateEventDefinition;
 import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

@@ -16,13 +16,38 @@
  */
 package org.camunda.bpm.model.bpmn.builder;
 
-import org.camunda.bpm.model.bpmn.AssociationDirection;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.BoundaryEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.CompensateEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.IntermediateCatchEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.IntermediateThrowEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.AssociationDirection;
 import org.camunda.bpm.model.bpmn.BpmnModelException;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.instance.*;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnShape;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaExecutionListener;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFailedJobRetryTimeCycle;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.ManualTask;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Activity;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.BusinessRuleTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.CallActivity;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ReceiveTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ScriptTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.SendTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Association;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EndEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.EventBasedGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ExclusiveGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.Gateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.InclusiveGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ParallelGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.SubProcess;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.Transaction;
 import org.camunda.bpm.model.xml.instance.ModelElementInstance;
 
 /**

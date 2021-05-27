@@ -16,9 +16,9 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.Event;
-import org.camunda.bpm.model.bpmn.instance.FlowNode;
-import org.camunda.bpm.model.bpmn.instance.Property;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.Event;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.Property;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnShape;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

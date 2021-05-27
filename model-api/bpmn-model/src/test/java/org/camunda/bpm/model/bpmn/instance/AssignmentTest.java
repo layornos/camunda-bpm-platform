@@ -18,6 +18,7 @@ package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.impl.instance.From;
 import org.camunda.bpm.model.bpmn.impl.instance.To;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;
 import java.util.Collection;

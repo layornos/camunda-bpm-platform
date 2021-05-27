@@ -18,6 +18,8 @@ package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.impl.instance.EndPointRef;
 import org.camunda.bpm.model.bpmn.impl.instance.InterfaceRef;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.ParticipantMultiplicity;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;
 import java.util.Collection;

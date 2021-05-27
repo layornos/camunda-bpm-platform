@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
 
 /**
  * @author Sebastian Menski

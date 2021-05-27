@@ -18,10 +18,10 @@ package org.camunda.bpm.model.bpmn.impl.instance;
 
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.*;
 
-import org.camunda.bpm.model.bpmn.instance.DataState;
-import org.camunda.bpm.model.bpmn.instance.DataStore;
-import org.camunda.bpm.model.bpmn.instance.ItemDefinition;
-import org.camunda.bpm.model.bpmn.instance.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataState;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataStore;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

@@ -17,6 +17,9 @@
 package org.camunda.bpm.model.bpmn.impl.instance;
 
 import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.services.CallableElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.services.Interface;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.instance.ModelElementInstance;

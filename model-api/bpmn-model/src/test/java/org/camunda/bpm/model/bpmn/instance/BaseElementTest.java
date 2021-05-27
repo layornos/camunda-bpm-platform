@@ -16,6 +16,9 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Task;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Documentation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
 import org.junit.Test;
 
 import java.util.Arrays;

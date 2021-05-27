@@ -16,6 +16,9 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.Property;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+
 import java.util.Arrays;
 import java.util.Collection;
 

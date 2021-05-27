@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.impl.instance;
 
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstanceTest;
-import org.camunda.bpm.model.bpmn.instance.LaneSet;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.LaneSet;
 
 import java.util.Collection;
 

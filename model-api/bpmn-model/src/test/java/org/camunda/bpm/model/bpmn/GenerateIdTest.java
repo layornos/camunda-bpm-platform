@@ -18,10 +18,10 @@ package org.camunda.bpm.model.bpmn;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.camunda.bpm.model.bpmn.instance.Definitions;
-import org.camunda.bpm.model.bpmn.instance.Process;
-import org.camunda.bpm.model.bpmn.instance.StartEvent;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Definitions;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 import org.junit.Test;
 
 public class GenerateIdTest {

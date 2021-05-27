@@ -16,9 +16,9 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.Resource;
-import org.camunda.bpm.model.bpmn.instance.ResourceParameter;
-import org.camunda.bpm.model.bpmn.instance.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.Resource;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceParameter;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

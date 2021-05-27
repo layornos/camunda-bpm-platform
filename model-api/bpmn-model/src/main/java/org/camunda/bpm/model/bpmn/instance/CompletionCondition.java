@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.Expression;
+
 /**
  * The BPMN 2.0 completionCondition element from the
  * tMultiInstanceLoopCharacteristics type

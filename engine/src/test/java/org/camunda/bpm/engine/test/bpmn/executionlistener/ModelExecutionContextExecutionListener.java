@@ -19,7 +19,7 @@ package org.camunda.bpm.engine.test.bpmn.executionlistener;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.ExecutionListener;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.FlowElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
 
 /**
  * @author Sebastian Menski

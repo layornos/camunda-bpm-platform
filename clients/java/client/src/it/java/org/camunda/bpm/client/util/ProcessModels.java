@@ -19,8 +19,8 @@ package org.camunda.bpm.client.util;
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.builder.ProcessBuilder;
-import org.camunda.bpm.model.bpmn.instance.ExclusiveGateway;
-import org.camunda.bpm.model.bpmn.instance.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ExclusiveGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
 
 public class ProcessModels {
 

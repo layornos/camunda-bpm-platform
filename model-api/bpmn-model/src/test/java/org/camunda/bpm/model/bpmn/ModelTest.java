@@ -17,6 +17,13 @@
 package org.camunda.bpm.model.bpmn;
 
 import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.MessageEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Definitions;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.CatchEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.Event;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
 import org.camunda.bpm.model.xml.Model;
 import org.camunda.bpm.model.xml.impl.util.ModelUtil;
 import org.camunda.bpm.model.xml.type.ModelElementType;

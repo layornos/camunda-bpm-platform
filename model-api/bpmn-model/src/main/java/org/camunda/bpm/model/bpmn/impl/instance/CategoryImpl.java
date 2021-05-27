@@ -22,9 +22,9 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_CA
 
 import java.util.Collection;
 
-import org.camunda.bpm.model.bpmn.instance.Category;
-import org.camunda.bpm.model.bpmn.instance.CategoryValue;
-import org.camunda.bpm.model.bpmn.instance.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.group.Category;
+import org.camunda.bpm.model.bpmn.instance.paradigm.group.CategoryValue;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

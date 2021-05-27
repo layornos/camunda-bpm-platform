@@ -16,7 +16,11 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.Resource;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceAssignmentExpression;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceParameterBinding;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceRole;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

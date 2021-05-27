@@ -16,10 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.ItemKind;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemKind;
 import org.camunda.bpm.model.bpmn.impl.BpmnModelConstants;
-import org.camunda.bpm.model.bpmn.instance.ItemDefinition;
-import org.camunda.bpm.model.bpmn.instance.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

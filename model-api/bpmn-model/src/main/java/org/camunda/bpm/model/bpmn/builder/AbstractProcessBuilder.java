@@ -17,8 +17,8 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.ProcessType;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.ProcessType;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
 
 /**
  * @author Sebastian Menski

@@ -18,6 +18,8 @@ package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.impl.instance.MessageFlowRef;
 import org.camunda.bpm.model.bpmn.impl.instance.ParticipantRef;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.correlations.CorrelationKey;
 
 import java.util.Arrays;
 import java.util.Collection;

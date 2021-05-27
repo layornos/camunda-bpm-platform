@@ -20,9 +20,9 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN20_NS;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ATTRIBUTE_CATEGORY_VALUE_REF;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_GROUP;
 
-import org.camunda.bpm.model.bpmn.instance.Artifact;
-import org.camunda.bpm.model.bpmn.instance.CategoryValue;
-import org.camunda.bpm.model.bpmn.instance.Group;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Artifact;
+import org.camunda.bpm.model.bpmn.instance.paradigm.group.CategoryValue;
+import org.camunda.bpm.model.bpmn.instance.paradigm.group.Group;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnEdge;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

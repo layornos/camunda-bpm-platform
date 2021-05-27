@@ -17,9 +17,9 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.Message;
-import org.camunda.bpm.model.bpmn.instance.Operation;
-import org.camunda.bpm.model.bpmn.instance.SendTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.Message;
+import org.camunda.bpm.model.bpmn.instance.paradigm.services.Operation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.SendTask;
 
 /**
  * @author Sebastian Menski

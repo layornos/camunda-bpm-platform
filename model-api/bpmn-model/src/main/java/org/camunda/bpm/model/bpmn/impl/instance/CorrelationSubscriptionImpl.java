@@ -16,10 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.BaseElement;
-import org.camunda.bpm.model.bpmn.instance.CorrelationKey;
-import org.camunda.bpm.model.bpmn.instance.CorrelationPropertyBinding;
-import org.camunda.bpm.model.bpmn.instance.CorrelationSubscription;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.correlations.CorrelationKey;
+import org.camunda.bpm.model.bpmn.instance.paradigm.correlations.CorrelationPropertyBinding;
+import org.camunda.bpm.model.bpmn.instance.paradigm.correlations.CorrelationSubscription;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

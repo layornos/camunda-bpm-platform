@@ -16,10 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.GatewayDirection;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.GatewayDirection;
 import org.camunda.bpm.model.bpmn.builder.AbstractGatewayBuilder;
-import org.camunda.bpm.model.bpmn.instance.FlowNode;
-import org.camunda.bpm.model.bpmn.instance.Gateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.Gateway;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnShape;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

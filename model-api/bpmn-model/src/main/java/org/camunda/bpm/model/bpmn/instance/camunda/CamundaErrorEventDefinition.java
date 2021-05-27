@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance.camunda;
 
-import org.camunda.bpm.model.bpmn.instance.ErrorEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.ErrorEventDefinition;
 
 public interface CamundaErrorEventDefinition extends ErrorEventDefinition {
 

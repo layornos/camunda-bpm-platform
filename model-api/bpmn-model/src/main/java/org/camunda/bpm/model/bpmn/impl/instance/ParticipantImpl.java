@@ -16,8 +16,12 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.*;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Participant;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.ParticipantMultiplicity;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.services.EndPoint;
+import org.camunda.bpm.model.bpmn.instance.paradigm.services.Interface;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

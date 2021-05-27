@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.instance.camunda;
 
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstance;
-import org.camunda.bpm.model.bpmn.instance.TimerEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.TimerEventDefinition;
 import java.util.Collection;
 
 /**

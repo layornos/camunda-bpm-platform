@@ -16,8 +16,12 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.*;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnDiagram;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Definitions;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.externals.Extension;
+import org.camunda.bpm.model.bpmn.instance.paradigm.externals.Import;
+import org.camunda.bpm.model.bpmn.instance.paradigm.externals.Relationship;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

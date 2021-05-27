@@ -19,6 +19,7 @@ package org.camunda.bpm.model.bpmn.instance;
 import org.camunda.bpm.model.bpmn.impl.instance.ErrorRef;
 import org.camunda.bpm.model.bpmn.impl.instance.InMessageRef;
 import org.camunda.bpm.model.bpmn.impl.instance.OutMessageRef;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;
 import java.util.Collection;

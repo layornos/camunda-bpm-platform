@@ -20,11 +20,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Collection;
 
-import org.camunda.bpm.model.bpmn.instance.HumanPerformer;
-import org.camunda.bpm.model.bpmn.instance.Performer;
-import org.camunda.bpm.model.bpmn.instance.PotentialOwner;
-import org.camunda.bpm.model.bpmn.instance.ResourceRole;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.domain.resources.human.HumanPerformer;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.Performer;
+import org.camunda.bpm.model.bpmn.instance.domain.resources.human.PotentialOwner;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceRole;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

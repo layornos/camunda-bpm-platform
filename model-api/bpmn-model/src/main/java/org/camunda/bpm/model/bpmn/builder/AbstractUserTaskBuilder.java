@@ -20,8 +20,8 @@ import java.util.List;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.impl.BpmnModelConstants;
-import org.camunda.bpm.model.bpmn.instance.TimerEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.TimerEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormData;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormField;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaTaskListener;

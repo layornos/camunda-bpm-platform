@@ -46,7 +46,7 @@ import org.camunda.bpm.engine.test.util.ClockTestUtil;
 import org.camunda.bpm.engine.test.util.ProvidedProcessEngineRule;
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaTaskListener;
 import org.joda.time.DateTime;
 import org.junit.Assert;

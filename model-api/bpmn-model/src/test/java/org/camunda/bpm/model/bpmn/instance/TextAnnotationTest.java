@@ -26,6 +26,10 @@ import java.util.Collection;
 
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Artifact;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Association;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.TextAnnotation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

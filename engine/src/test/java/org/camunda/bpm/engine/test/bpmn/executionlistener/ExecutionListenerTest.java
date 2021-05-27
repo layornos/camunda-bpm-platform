@@ -56,7 +56,8 @@ import org.camunda.bpm.engine.test.util.ProvidedProcessEngineRule;
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.builder.ProcessBuilder;
-import org.camunda.bpm.model.bpmn.instance.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaExecutionListener;
 import org.junit.Before;
 import org.junit.Rule;
@@ -1160,7 +1161,7 @@ public class ExecutionListenerTest {
     CamundaExecutionListener listener = model.newInstance(CamundaExecutionListener.class);
     listener.setCamundaEvent(ExecutionListener.EVENTNAME_START);
     listener.setCamundaClass(ThrowBPMNErrorDelegate.class.getName());
-    model.<org.camunda.bpm.model.bpmn.instance.Process>getModelElementById(PROCESS_KEY).builder().addExtensionElement(listener);
+    model.<Process>getModelElementById(PROCESS_KEY).builder().addExtensionElement(listener);
 
     DeploymentWithDefinitions deployment = testRule.deploy(model);
 
@@ -1195,7 +1196,7 @@ public class ExecutionListenerTest {
     CamundaExecutionListener listener = model.newInstance(CamundaExecutionListener.class);
     listener.setCamundaEvent(ExecutionListener.EVENTNAME_END);
     listener.setCamundaClass(ThrowBPMNErrorDelegate.class.getName());
-    model.<org.camunda.bpm.model.bpmn.instance.Process>getModelElementById(PROCESS_KEY).builder().addExtensionElement(listener);
+    model.<Process>getModelElementById(PROCESS_KEY).builder().addExtensionElement(listener);
 
     DeploymentWithDefinitions deployment = testRule.deploy(model);
 

@@ -16,6 +16,13 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataOutputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.Property;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.looping.LoopCharacteristics;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceRole;
+
 import java.util.Arrays;
 import java.util.Collection;
 

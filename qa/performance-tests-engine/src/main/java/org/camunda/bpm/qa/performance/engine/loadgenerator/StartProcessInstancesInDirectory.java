@@ -25,7 +25,7 @@ import java.util.List;
 import org.camunda.bpm.engine.ProcessEngine;
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
 import org.camunda.bpm.qa.performance.engine.junit.PerfTestProcessEngine;
 import org.camunda.bpm.qa.performance.engine.loadgenerator.tasks.DeployFileTask;
 import org.camunda.bpm.qa.performance.engine.loadgenerator.tasks.StartProcessInstanceTask;

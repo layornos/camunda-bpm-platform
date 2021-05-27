@@ -20,8 +20,8 @@ import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.ExecutionListener;
 import org.camunda.bpm.engine.test.bpmn.common.AbstractProcessEngineServicesAccessTest;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.ManualTask;
-import org.camunda.bpm.model.bpmn.instance.Task;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.ManualTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Task;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaExecutionListener;
 
 /**

@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.impl.instance;
 
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstanceTest;
-import org.camunda.bpm.model.bpmn.instance.FormalExpression;
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.FormalExpression;
 
 import java.util.Collection;
 

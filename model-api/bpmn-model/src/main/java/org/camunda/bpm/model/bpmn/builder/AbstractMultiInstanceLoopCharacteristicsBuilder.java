@@ -20,7 +20,7 @@ import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.instance.Activity;
 import org.camunda.bpm.model.bpmn.instance.CompletionCondition;
 import org.camunda.bpm.model.bpmn.instance.LoopCardinality;
-import org.camunda.bpm.model.bpmn.instance.MultiInstanceLoopCharacteristics;
+import org.camunda.bpm.model.bpmn.instance.paradigm.looping.MultiInstanceLoopCharacteristics;
 
 /**
  * @author Thorben Lindhauer

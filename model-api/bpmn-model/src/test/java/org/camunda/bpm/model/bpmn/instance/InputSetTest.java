@@ -20,6 +20,7 @@ import org.camunda.bpm.model.bpmn.impl.instance.DataInputRefs;
 import org.camunda.bpm.model.bpmn.impl.instance.OptionalInputRefs;
 import org.camunda.bpm.model.bpmn.impl.instance.OutputSetRefs;
 import org.camunda.bpm.model.bpmn.impl.instance.WhileExecutingInputRefs;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;
 import java.util.Collection;

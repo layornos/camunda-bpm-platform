@@ -18,6 +18,13 @@ package org.camunda.bpm.model.bpmn.impl.instance;
 
 import org.camunda.bpm.model.bpmn.impl.BpmnModelConstants;
 import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataOutputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.Property;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.looping.LoopCharacteristics;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceRole;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

@@ -18,8 +18,8 @@ package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.instance.ActivationCondition;
-import org.camunda.bpm.model.bpmn.instance.ComplexGateway;
-import org.camunda.bpm.model.bpmn.instance.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ComplexGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
 
 /**
  * @author Sebastian Menski

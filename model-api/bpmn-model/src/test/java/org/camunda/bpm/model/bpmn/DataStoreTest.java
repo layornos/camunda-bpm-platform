@@ -18,8 +18,8 @@ package org.camunda.bpm.model.bpmn;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.camunda.bpm.model.bpmn.instance.DataStore;
-import org.camunda.bpm.model.bpmn.instance.DataStoreReference;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataStore;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataStoreReference;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

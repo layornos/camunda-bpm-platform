@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.impl.instance.camunda;
 
 import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
-import org.camunda.bpm.model.bpmn.instance.ResourceAssignmentExpression;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceAssignmentExpression;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaPotentialStarter;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

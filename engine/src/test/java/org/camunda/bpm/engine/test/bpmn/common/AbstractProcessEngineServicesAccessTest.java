@@ -28,7 +28,7 @@ import org.camunda.bpm.engine.repository.Deployment;
 import org.camunda.bpm.engine.test.util.PluggableProcessEngineTest;
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.Task;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Task;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;

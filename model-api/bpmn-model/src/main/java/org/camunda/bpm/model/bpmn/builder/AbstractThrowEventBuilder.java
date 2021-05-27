@@ -17,11 +17,11 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.CompensateEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.EscalationEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.MessageEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.SignalEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.ThrowEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.CompensateEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.EscalationEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.MessageEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.SignalEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.ThrowEvent;
 
 /**
  * @author Sebastian Menski

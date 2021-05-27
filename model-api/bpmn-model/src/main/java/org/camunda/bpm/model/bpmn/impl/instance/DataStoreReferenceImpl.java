@@ -21,7 +21,11 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_DA
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ATTRIBUTE_ITEM_SUBJECT_REF;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ATTRIBUTE_DATA_STORE_REF;
 
-import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataState;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataStore;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataStoreReference;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

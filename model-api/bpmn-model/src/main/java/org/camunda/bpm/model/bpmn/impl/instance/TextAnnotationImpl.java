@@ -20,10 +20,9 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN20_NS;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ATTRIBUTE_TEXT_FORMAT;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_TEXT_ANNOTATION;
 
-import org.camunda.bpm.model.bpmn.instance.Artifact;
-import org.camunda.bpm.model.bpmn.instance.Script;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Artifact;
 import org.camunda.bpm.model.bpmn.instance.Text;
-import org.camunda.bpm.model.bpmn.instance.TextAnnotation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.TextAnnotation;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

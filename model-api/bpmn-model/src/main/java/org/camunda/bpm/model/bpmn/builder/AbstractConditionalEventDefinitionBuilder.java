@@ -19,8 +19,8 @@ package org.camunda.bpm.model.bpmn.builder;
 import java.util.List;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.instance.Condition;
-import org.camunda.bpm.model.bpmn.instance.ConditionalEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.Event;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.ConditionalEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.Event;
 
 /**
  * Represents the abstract conditional event definition builder.

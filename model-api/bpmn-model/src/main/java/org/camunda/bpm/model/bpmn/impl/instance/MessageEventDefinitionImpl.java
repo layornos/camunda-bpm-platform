@@ -16,10 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.EventDefinition;
-import org.camunda.bpm.model.bpmn.instance.Message;
-import org.camunda.bpm.model.bpmn.instance.MessageEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.Operation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.Message;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.MessageEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.services.Operation;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

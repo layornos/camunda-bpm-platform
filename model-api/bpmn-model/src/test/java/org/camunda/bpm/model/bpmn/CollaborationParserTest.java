@@ -16,7 +16,14 @@
  */
 package org.camunda.bpm.model.bpmn;
 
-import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Collaboration;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Participant;
+import org.camunda.bpm.model.bpmn.instance.domain.conversations.Conversation;
+import org.camunda.bpm.model.bpmn.instance.domain.conversations.ConversationLink;
+import org.camunda.bpm.model.bpmn.instance.domain.conversations.ConversationNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.Event;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.MessageFlow;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;

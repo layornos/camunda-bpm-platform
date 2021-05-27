@@ -16,7 +16,13 @@
  */
 package org.camunda.bpm.model.bpmn;
 
-import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ScriptTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataObject;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataObjectReference;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataOutputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemAwareElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemDefinition;
 import org.junit.BeforeClass;
 import org.junit.Test;
 

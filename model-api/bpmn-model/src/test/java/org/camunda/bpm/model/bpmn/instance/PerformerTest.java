@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceRole;
+
 import java.util.Collection;
 
 /**

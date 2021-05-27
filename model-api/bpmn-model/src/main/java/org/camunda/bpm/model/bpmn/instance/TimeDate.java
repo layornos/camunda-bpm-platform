@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.Expression;
+
 /**
  * The BPMN timeDate element of the BPMN tTimerEventDefinition type
  *

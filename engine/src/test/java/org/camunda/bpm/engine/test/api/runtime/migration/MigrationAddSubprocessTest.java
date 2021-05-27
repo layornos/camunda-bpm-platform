@@ -39,7 +39,7 @@ import org.camunda.bpm.engine.test.bpmn.multiinstance.DelegateExecutionListener;
 import org.camunda.bpm.engine.test.util.ProvidedProcessEngineRule;
 import org.camunda.bpm.engine.variable.Variables;
 import org.camunda.bpm.model.bpmn.builder.ParallelGatewayBuilder;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 import org.junit.Assert;
 import org.junit.Ignore;
 import org.junit.Rule;

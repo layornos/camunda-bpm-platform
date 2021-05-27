@@ -18,7 +18,7 @@ package org.camunda.bpm.engine.test.bpmn.executionlistener;
 
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.ExecutionListener;
-import org.camunda.bpm.model.bpmn.instance.EndEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EndEvent;
 
 /**
  * Simple {@link ExecutionListener} that sets a variable on the execution depending on the execution's state.

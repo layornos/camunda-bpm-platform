@@ -19,7 +19,7 @@ package org.camunda.bpm.engine.test.bpmn.servicetask;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
 
 
 /**

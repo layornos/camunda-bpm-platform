@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.FormalExpression;
+
 import java.util.Arrays;
 import java.util.Collection;
 

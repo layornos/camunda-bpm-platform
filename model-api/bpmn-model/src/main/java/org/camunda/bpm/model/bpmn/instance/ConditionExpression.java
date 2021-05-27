@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.FormalExpression;
+
 /**
  * The BPMN conditionExpression element of the BPMN tSequenceFlow type
  *

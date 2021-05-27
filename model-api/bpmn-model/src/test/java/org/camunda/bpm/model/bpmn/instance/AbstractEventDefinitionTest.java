@@ -19,6 +19,8 @@ package org.camunda.bpm.model.bpmn.instance;
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.Query;
 import org.camunda.bpm.model.bpmn.impl.QueryImpl;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.IntermediateThrowEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EventDefinition;
 import org.camunda.bpm.model.xml.impl.util.ReflectUtil;
 import org.junit.Before;
 

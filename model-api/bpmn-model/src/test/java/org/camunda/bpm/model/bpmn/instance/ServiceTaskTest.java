@@ -22,7 +22,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 import org.camunda.bpm.model.bpmn.BpmnTestConstants;
 
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.CAMUNDA_NS;
-import static org.camunda.bpm.model.xml.test.AbstractModelElementInstanceTest.modelInstance;
+
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Task;
 import org.junit.Test;
 
 /**
@@ -57,7 +59,7 @@ public class ServiceTaskTest extends BpmnModelElementInstanceTest {
   @Test
   public void testCamundaTaskPriority() {
     //given
-    ServiceTask service = modelInstance.newInstance(ServiceTask.class);    
+    ServiceTask service = modelInstance.newInstance(ServiceTask.class);
     assertThat(service.getCamundaTaskPriority()).isNull();
     //when
     service.setCamundaTaskPriority(BpmnTestConstants.TEST_PROCESS_TASK_PRIORITY);

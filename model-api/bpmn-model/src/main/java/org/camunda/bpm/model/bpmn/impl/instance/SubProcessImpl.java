@@ -18,7 +18,10 @@ package org.camunda.bpm.model.bpmn.impl.instance;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.builder.SubProcessBuilder;
-import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.LaneSet;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Artifact;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.SubProcess;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

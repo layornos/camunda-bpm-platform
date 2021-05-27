@@ -18,7 +18,7 @@ package org.camunda.bpm.engine.test.api.runtime.migration.util;
 
 import org.camunda.bpm.engine.delegate.DelegateTask;
 import org.camunda.bpm.engine.delegate.TaskListener;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 
 public class AccessModelInstanceTaskListener implements TaskListener {
 

@@ -18,12 +18,12 @@ package org.camunda.bpm.engine.test.api.runtime.migration.models;
 
 import static org.camunda.bpm.engine.test.api.runtime.migration.ModifiableBpmnModelInstance.modify;
 
-import org.camunda.bpm.model.bpmn.AssociationDirection;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.AssociationDirection;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.Association;
-import org.camunda.bpm.model.bpmn.instance.BaseElement;
-import org.camunda.bpm.model.bpmn.instance.BoundaryEvent;
-import org.camunda.bpm.model.bpmn.instance.UserTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Association;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.BoundaryEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 
 /**
  * @author Thorben Lindhauer

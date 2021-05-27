@@ -17,6 +17,10 @@
 package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnDiagram;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.externals.Extension;
+import org.camunda.bpm.model.bpmn.instance.paradigm.externals.Import;
+import org.camunda.bpm.model.bpmn.instance.paradigm.externals.Relationship;
 
 import java.util.Arrays;
 import java.util.Collection;

@@ -18,8 +18,8 @@ package org.camunda.bpm.model.bpmn.validation;
 
 import java.util.Collection;
 
-import org.camunda.bpm.model.bpmn.instance.Process;
-import org.camunda.bpm.model.bpmn.instance.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
 import org.camunda.bpm.model.xml.validation.ModelElementValidator;
 import org.camunda.bpm.model.xml.validation.ValidationResultCollector;
 

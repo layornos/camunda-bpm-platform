@@ -17,11 +17,14 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.*;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnEdge;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnShape;
 import org.camunda.bpm.model.bpmn.instance.dc.Bounds;
 import org.camunda.bpm.model.bpmn.instance.di.Waypoint;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.BoundaryEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.ErrorEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.EscalationEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
 
 /**
  * @author Sebastian Menski

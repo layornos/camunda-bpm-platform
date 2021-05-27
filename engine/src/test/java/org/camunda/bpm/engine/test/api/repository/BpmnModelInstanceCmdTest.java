@@ -24,9 +24,9 @@ import java.util.Collection;
 import org.camunda.bpm.engine.test.Deployment;
 import org.camunda.bpm.engine.test.util.PluggableProcessEngineTest;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.Event;
-import org.camunda.bpm.model.bpmn.instance.SequenceFlow;
-import org.camunda.bpm.model.bpmn.instance.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.Event;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
 import org.camunda.bpm.model.xml.instance.ModelElementInstance;
 import org.junit.Test;
 

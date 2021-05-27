@@ -19,7 +19,7 @@ package org.camunda.bpm.engine.test.api.runtime.migration.models;
 import static org.camunda.bpm.engine.test.api.runtime.migration.ModifiableBpmnModelInstance.modify;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.CancelEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.CancelEventDefinition;
 import org.camunda.bpm.model.xml.instance.ModelElementInstance;
 
 /**

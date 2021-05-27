@@ -18,7 +18,7 @@ package org.camunda.bpm.model.bpmn.instance.camunda;
 
 import org.camunda.bpm.model.bpmn.impl.BpmnModelConstants;
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstanceTest;
-import org.camunda.bpm.model.bpmn.instance.ResourceAssignmentExpression;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceAssignmentExpression;
 
 import java.util.Arrays;
 import java.util.Collection;

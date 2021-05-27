@@ -29,7 +29,7 @@ import org.camunda.bpm.engine.runtime.Incident;
 import org.camunda.bpm.engine.variable.VariableMap;
 import org.camunda.bpm.engine.variable.value.TypedValue;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.FlowElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
 
 /**
  * @author Thorben Lindhauer

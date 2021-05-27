@@ -18,8 +18,8 @@ package org.camunda.bpm.model.bpmn.builder;
 
 import static org.camunda.bpm.model.bpmn.builder.AbstractBaseElementBuilder.SPACE;
 
-import org.camunda.bpm.model.bpmn.instance.StartEvent;
-import org.camunda.bpm.model.bpmn.instance.SubProcess;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.SubProcess;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnShape;
 import org.camunda.bpm.model.bpmn.instance.dc.Bounds;
 

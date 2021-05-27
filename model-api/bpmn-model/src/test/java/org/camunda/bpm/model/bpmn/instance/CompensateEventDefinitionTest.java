@@ -16,6 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.CompensateEventDefinition;
 import org.junit.Test;
 
 import java.util.Arrays;

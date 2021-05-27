@@ -17,10 +17,10 @@
 package org.camunda.bpm.model.bpmn.impl.instance;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.EventBasedGatewayType;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.EventBasedGatewayType;
 import org.camunda.bpm.model.bpmn.builder.EventBasedGatewayBuilder;
-import org.camunda.bpm.model.bpmn.instance.EventBasedGateway;
-import org.camunda.bpm.model.bpmn.instance.Gateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.EventBasedGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.Gateway;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

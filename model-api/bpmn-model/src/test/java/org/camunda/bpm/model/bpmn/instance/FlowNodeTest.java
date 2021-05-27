@@ -20,6 +20,11 @@ import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.impl.instance.Incoming;
 import org.camunda.bpm.model.bpmn.impl.instance.Outgoing;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Task;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
 import org.junit.Test;
 
 import java.util.Arrays;

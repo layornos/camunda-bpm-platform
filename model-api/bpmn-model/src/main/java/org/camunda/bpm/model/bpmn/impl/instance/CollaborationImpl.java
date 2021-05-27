@@ -16,7 +16,17 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.*;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Collaboration;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Participant;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.ParticipantAssociation;
+import org.camunda.bpm.model.bpmn.instance.domain.conversations.ConversationAssociation;
+import org.camunda.bpm.model.bpmn.instance.domain.conversations.ConversationLink;
+import org.camunda.bpm.model.bpmn.instance.domain.conversations.ConversationNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Artifact;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.correlations.CorrelationKey;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.MessageFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.MessageFlowAssociation;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

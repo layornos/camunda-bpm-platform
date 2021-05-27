@@ -22,10 +22,10 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ATTRIBUTE_
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_DATA_OBJECT;
 import static org.camunda.bpm.model.xml.type.ModelElementTypeBuilder.ModelTypeInstanceProvider;
 
-import org.camunda.bpm.model.bpmn.instance.DataObject;
-import org.camunda.bpm.model.bpmn.instance.DataState;
-import org.camunda.bpm.model.bpmn.instance.FlowElement;
-import org.camunda.bpm.model.bpmn.instance.ItemDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataObject;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataState;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemDefinition;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

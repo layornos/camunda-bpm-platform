@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn;
 
-import org.camunda.bpm.model.bpmn.instance.Definitions;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Definitions;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;

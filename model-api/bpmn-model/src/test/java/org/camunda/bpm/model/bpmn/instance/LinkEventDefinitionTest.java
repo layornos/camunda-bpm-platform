@@ -18,6 +18,7 @@ package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.impl.instance.Source;
 import org.camunda.bpm.model.bpmn.impl.instance.Target;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.LinkEventDefinition;
 import org.junit.Test;
 
 import java.util.Arrays;

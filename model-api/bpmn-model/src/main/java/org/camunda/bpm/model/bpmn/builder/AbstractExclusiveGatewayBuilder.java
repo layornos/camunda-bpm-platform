@@ -17,8 +17,8 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.ExclusiveGateway;
-import org.camunda.bpm.model.bpmn.instance.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ExclusiveGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
 
 /**
  * @author Sebastian Menski

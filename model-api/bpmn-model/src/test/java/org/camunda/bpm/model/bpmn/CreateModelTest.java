@@ -17,7 +17,15 @@
 package org.camunda.bpm.model.bpmn;
 
 import org.camunda.bpm.model.bpmn.instance.*;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Definitions;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EndEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowNode;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ParallelGateway;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

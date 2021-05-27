@@ -21,8 +21,8 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ATTRIBUTE_
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_TRANSACTION;
 
 import org.camunda.bpm.model.bpmn.TransactionMethod;
-import org.camunda.bpm.model.bpmn.instance.SubProcess;
-import org.camunda.bpm.model.bpmn.instance.Transaction;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.SubProcess;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.Transaction;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

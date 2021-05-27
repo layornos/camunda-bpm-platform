@@ -19,7 +19,7 @@ package org.camunda.bpm.model.bpmn.impl.instance;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN20_NS;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.BPMN_ELEMENT_INPUT_DATA_ITEM;
 
-import org.camunda.bpm.model.bpmn.instance.DataInput;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInput;
 import org.camunda.bpm.model.bpmn.instance.InputDataItem;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.Expression;
+
 /**
  * The loopCardinality element from the tMultiInstanceLoopCharacteristics complex type
  * 

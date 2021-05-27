@@ -16,9 +16,9 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.Expression;
-import org.camunda.bpm.model.bpmn.instance.FormalExpression;
-import org.camunda.bpm.model.bpmn.instance.ItemDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.Expression;
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.FormalExpression;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.ItemDefinition;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 import org.camunda.bpm.model.xml.type.ModelElementTypeBuilder;

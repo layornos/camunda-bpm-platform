@@ -28,7 +28,7 @@ import org.camunda.bpm.model.xml.validation.ValidationResult;
 import org.camunda.bpm.model.xml.validation.ValidationResultType;
 import org.camunda.bpm.model.xml.validation.ValidationResults;
 import org.junit.Test;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
 
 import static org.assertj.core.api.Assertions.*;
 

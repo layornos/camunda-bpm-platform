@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInput;
+
 /**
  * The BPMN 2.0 inputDataItem from the tMultiInstanceLoopCharacteristics type
  * 

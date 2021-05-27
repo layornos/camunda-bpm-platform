@@ -17,8 +17,8 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.Event;
-import org.camunda.bpm.model.bpmn.instance.MessageEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.Event;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.MessageEventDefinition;
 
 /**
  *

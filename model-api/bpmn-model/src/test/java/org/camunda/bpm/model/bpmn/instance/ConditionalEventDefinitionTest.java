@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.ConditionalEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.expressions.Expression;
 import org.junit.Test;
 
 import java.util.Arrays;

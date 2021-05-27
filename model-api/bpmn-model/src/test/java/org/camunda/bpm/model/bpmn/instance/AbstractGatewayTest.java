@@ -17,7 +17,8 @@
 package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.Bpmn;
-import org.camunda.bpm.model.bpmn.GatewayDirection;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.Gateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.GatewayDirection;
 import org.camunda.bpm.model.xml.impl.util.ReflectUtil;
 import org.camunda.bpm.model.xml.instance.ModelElementInstance;
 import org.junit.Before;

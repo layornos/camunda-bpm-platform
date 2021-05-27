@@ -16,6 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.processes.LaneSet;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Artifact;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.FlowElement;
+
 import java.util.Arrays;
 import java.util.Collection;
 

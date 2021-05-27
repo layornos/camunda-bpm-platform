@@ -16,13 +16,22 @@
  */
 package org.camunda.bpm.model.bpmn;
 
-import org.camunda.bpm.model.bpmn.instance.*;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.*;
 import org.camunda.bpm.model.bpmn.instance.dc.Bounds;
 import org.camunda.bpm.model.bpmn.instance.dc.Font;
 import org.camunda.bpm.model.bpmn.instance.di.DiagramElement;
 import org.camunda.bpm.model.bpmn.instance.di.Waypoint;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Collaboration;
+import org.camunda.bpm.model.bpmn.instance.domain.collaboration.Participant;
+import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
+import org.camunda.bpm.model.bpmn.instance.paradigm.artifacts.Association;
+import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInputAssociation;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EndEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.flows.SequenceFlow;
+import org.camunda.bpm.model.bpmn.instance.paradigm.gateways.ExclusiveGateway;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.MessageFlow;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

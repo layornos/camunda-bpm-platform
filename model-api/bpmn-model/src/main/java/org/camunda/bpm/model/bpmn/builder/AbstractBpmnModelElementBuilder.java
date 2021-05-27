@@ -19,10 +19,10 @@ package org.camunda.bpm.model.bpmn.builder;
 import org.camunda.bpm.model.bpmn.BpmnModelException;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstance;
-import org.camunda.bpm.model.bpmn.instance.EndEvent;
-import org.camunda.bpm.model.bpmn.instance.IntermediateThrowEvent;
-import org.camunda.bpm.model.bpmn.instance.SubProcess;
-import org.camunda.bpm.model.bpmn.instance.Transaction;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EndEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.IntermediateThrowEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.SubProcess;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.Transaction;
 import org.camunda.bpm.model.xml.instance.ModelElementInstance;
 
 /**

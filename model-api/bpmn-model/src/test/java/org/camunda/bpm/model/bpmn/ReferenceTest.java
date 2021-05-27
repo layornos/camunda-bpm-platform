@@ -16,8 +16,12 @@
  */
 package org.camunda.bpm.model.bpmn;
 
-import org.camunda.bpm.model.bpmn.instance.*;
-import org.camunda.bpm.model.bpmn.instance.Process;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.MessageEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.Definitions;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.EventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.paradigm.messaging.Message;
 import org.camunda.bpm.model.bpmn.util.BpmnModelResource;
 import org.junit.Before;
 import org.junit.Test;

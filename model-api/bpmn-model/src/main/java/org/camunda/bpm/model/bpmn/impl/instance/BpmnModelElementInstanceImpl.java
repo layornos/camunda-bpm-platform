@@ -19,7 +19,8 @@ package org.camunda.bpm.model.bpmn.impl.instance;
 import org.camunda.bpm.model.bpmn.BpmnModelException;
 import org.camunda.bpm.model.bpmn.builder.AbstractBaseElementBuilder;
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstance;
-import org.camunda.bpm.model.bpmn.instance.SubProcess;
+import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;
+import org.camunda.bpm.model.bpmn.instance.paradigm.subprocesses.SubProcess;
 import org.camunda.bpm.model.xml.impl.instance.ModelElementInstanceImpl;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;
 
@@ -41,7 +42,7 @@ public abstract class BpmnModelElementInstanceImpl extends ModelElementInstanceI
   }
 
   public boolean isScope() {
-    return this instanceof org.camunda.bpm.model.bpmn.instance.Process || this instanceof SubProcess;
+    return this instanceof Process || this instanceof SubProcess;
   }
 
   public BpmnModelElementInstance getScope() {

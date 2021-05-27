@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance;
 
-import org.camunda.bpm.model.bpmn.instance.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstanceTest;
 
 import java.util.Collection;

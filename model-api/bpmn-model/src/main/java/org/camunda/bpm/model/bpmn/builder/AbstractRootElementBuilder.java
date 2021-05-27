@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.RootElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.RootElement;
 
 /**
  * @author Sebastian Menski

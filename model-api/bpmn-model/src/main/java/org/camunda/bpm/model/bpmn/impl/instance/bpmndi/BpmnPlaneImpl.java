@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.impl.instance.bpmndi;
 
 import org.camunda.bpm.model.bpmn.impl.instance.di.PlaneImpl;
-import org.camunda.bpm.model.bpmn.instance.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnPlane;
 import org.camunda.bpm.model.bpmn.instance.di.Plane;
 import org.camunda.bpm.model.xml.ModelBuilder;

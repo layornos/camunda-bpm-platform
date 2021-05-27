@@ -16,6 +16,8 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
+import org.camunda.bpm.model.bpmn.instance.domain.resources.human.HumanPerformer;
+
 import java.util.Collection;
 
 /**

@@ -17,10 +17,10 @@
 package org.camunda.bpm.model.bpmn.builder;
 
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.instance.CompensateEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.ErrorEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.EscalationEventDefinition;
-import org.camunda.bpm.model.bpmn.instance.StartEvent;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.CompensateEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.ErrorEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.EscalationEventDefinition;
+import org.camunda.bpm.model.bpmn.instance.paradigm.events.StartEvent;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormData;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormField;
 

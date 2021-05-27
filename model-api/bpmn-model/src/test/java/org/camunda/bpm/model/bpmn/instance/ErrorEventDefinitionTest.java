@@ -18,6 +18,7 @@ package org.camunda.bpm.model.bpmn.instance;
 
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.CAMUNDA_NS;
 
+import org.camunda.bpm.model.bpmn.instance.domain.events.advanced.ErrorEventDefinition;
 import org.junit.Test;
 
 import java.util.Arrays;

@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance.bpmndi;
 
-import org.camunda.bpm.model.bpmn.instance.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 import org.camunda.bpm.model.bpmn.instance.di.DiagramElement;
 import org.camunda.bpm.model.bpmn.instance.di.LabeledEdge;
 

@@ -17,6 +17,9 @@
 package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.impl.instance.ResourceRef;
+import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceAssignmentExpression;
+import org.camunda.bpm.model.bpmn.instance.paradigm.resources.ResourceParameterBinding;
 
 import java.util.Arrays;
 import java.util.Collection;
