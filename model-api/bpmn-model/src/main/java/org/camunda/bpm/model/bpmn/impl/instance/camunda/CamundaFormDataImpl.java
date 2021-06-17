@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.impl.instance.camunda;
 
 import org.camunda.bpm.model.bpmn.impl.BpmnModelConstants;
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormData;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaFormField;
 import org.camunda.bpm.model.xml.ModelBuilder;

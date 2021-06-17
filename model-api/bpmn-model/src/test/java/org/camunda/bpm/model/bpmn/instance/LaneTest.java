@@ -16,9 +16,9 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
-import org.camunda.bpm.model.bpmn.impl.instance.ChildLaneSet;
-import org.camunda.bpm.model.bpmn.impl.instance.FlowNodeRef;
-import org.camunda.bpm.model.bpmn.impl.instance.PartitionElement;
+import org.camunda.bpm.model.bpmn.impl.instance.domain.processes.ChildLaneSet;
+import org.camunda.bpm.model.bpmn.impl.instance.domain.expressions.FlowNodeRef;
+import org.camunda.bpm.model.bpmn.impl.instance.paradigm.core.PartitionElement;
 import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;

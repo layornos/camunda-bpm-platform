@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance.paradigm.correlations;
 
-import org.camunda.bpm.model.bpmn.impl.instance.DataPath;
+import org.camunda.bpm.model.bpmn.impl.instance.domain.expressions.DataPath;
 import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 /**

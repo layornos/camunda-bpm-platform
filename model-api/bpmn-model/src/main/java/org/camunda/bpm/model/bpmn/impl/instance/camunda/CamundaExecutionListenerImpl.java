@@ -18,7 +18,7 @@ package org.camunda.bpm.model.bpmn.impl.instance.camunda;
 
 import java.util.Collection;
 
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaExecutionListener;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaField;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaScript;

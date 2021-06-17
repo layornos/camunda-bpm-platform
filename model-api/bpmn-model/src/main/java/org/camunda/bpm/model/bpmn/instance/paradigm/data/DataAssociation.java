@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance.paradigm.data;
 
-import org.camunda.bpm.model.bpmn.impl.instance.Transformation;
+import org.camunda.bpm.model.bpmn.impl.instance.domain.expressions.Transformation;
 import org.camunda.bpm.model.bpmn.instance.domain.expressions.FormalExpression;
 import org.camunda.bpm.model.bpmn.instance.bpmndi.BpmnEdge;
 import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;

@@ -18,8 +18,8 @@ package org.camunda.bpm.model.bpmn.instance;
 
 import org.camunda.bpm.model.bpmn.Bpmn;
 import org.camunda.bpm.model.bpmn.BpmnModelInstance;
-import org.camunda.bpm.model.bpmn.impl.instance.Incoming;
-import org.camunda.bpm.model.bpmn.impl.instance.Outgoing;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.Incoming;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.Outgoing;
 import org.camunda.bpm.model.bpmn.instance.domain.humaninteraction.UserTask;
 import org.camunda.bpm.model.bpmn.instance.paradigm.activities.ServiceTask;
 import org.camunda.bpm.model.bpmn.instance.paradigm.activities.Task;

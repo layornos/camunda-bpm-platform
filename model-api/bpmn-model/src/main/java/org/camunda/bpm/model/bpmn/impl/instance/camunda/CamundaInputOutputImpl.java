@@ -17,7 +17,7 @@
 package org.camunda.bpm.model.bpmn.impl.instance.camunda;
 
 import java.util.Collection;
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaInputOutput;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaInputParameter;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaOutputParameter;

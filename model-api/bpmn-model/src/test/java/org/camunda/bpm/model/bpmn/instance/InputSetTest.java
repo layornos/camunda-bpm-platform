@@ -16,10 +16,10 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
-import org.camunda.bpm.model.bpmn.impl.instance.DataInputRefs;
-import org.camunda.bpm.model.bpmn.impl.instance.OptionalInputRefs;
-import org.camunda.bpm.model.bpmn.impl.instance.OutputSetRefs;
-import org.camunda.bpm.model.bpmn.impl.instance.WhileExecutingInputRefs;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.DataInputRefs;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.OptionalInputRefs;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.OutputSetRefs;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.WhileExecutingInputRefs;
 import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;

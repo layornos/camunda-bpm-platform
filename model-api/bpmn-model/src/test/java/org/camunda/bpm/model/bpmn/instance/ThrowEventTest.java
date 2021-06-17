@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
-import org.camunda.bpm.model.bpmn.impl.instance.EventDefinitionRef;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.EventDefinitionRef;
 import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInput;
 import org.camunda.bpm.model.bpmn.instance.paradigm.data.DataInputAssociation;
 import org.camunda.bpm.model.bpmn.instance.paradigm.data.InputSet;

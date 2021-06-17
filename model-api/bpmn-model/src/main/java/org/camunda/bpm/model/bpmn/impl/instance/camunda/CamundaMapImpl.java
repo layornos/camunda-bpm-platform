@@ -21,7 +21,7 @@ import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.CAMUNDA_NS;
 import java.util.Collection;
 
 import org.camunda.bpm.model.bpmn.impl.BpmnModelConstants;
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaEntry;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaMap;
 import org.camunda.bpm.model.xml.ModelBuilder;

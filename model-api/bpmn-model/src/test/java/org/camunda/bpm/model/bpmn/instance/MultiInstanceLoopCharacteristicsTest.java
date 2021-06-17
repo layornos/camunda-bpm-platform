@@ -22,8 +22,8 @@ import java.util.Arrays;
 import java.util.Collection;
 
 import org.camunda.bpm.model.bpmn.MultiInstanceFlowCondition;
-import org.camunda.bpm.model.bpmn.impl.instance.LoopDataInputRef;
-import org.camunda.bpm.model.bpmn.impl.instance.LoopDataOutputRef;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.LoopDataInputRef;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.LoopDataOutputRef;
 import org.camunda.bpm.model.bpmn.instance.paradigm.looping.ComplexBehaviorDefinition;
 import org.camunda.bpm.model.bpmn.instance.paradigm.looping.LoopCharacteristics;
 

@@ -19,7 +19,7 @@ package org.camunda.bpm.model.bpmn.impl.instance.camunda;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.CAMUNDA_ELEMENT_CONNECTOR_ID;
 import static org.camunda.bpm.model.bpmn.impl.BpmnModelConstants.CAMUNDA_NS;
 
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaConnectorId;
 import org.camunda.bpm.model.xml.ModelBuilder;
 import org.camunda.bpm.model.xml.impl.instance.ModelTypeInstanceContext;

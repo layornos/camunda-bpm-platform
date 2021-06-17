@@ -25,7 +25,7 @@ import org.camunda.bpm.model.bpmn.BpmnTestConstants;
 
 import org.camunda.bpm.model.bpmn.instance.domain.processes.LaneSet;
 import org.camunda.bpm.model.bpmn.instance.domain.processes.ProcessType;
-import org.camunda.bpm.model.bpmn.impl.instance.Supports;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.Supports;
 import org.camunda.bpm.model.bpmn.instance.domain.auditingandmonitoring.Auditing;
 import org.camunda.bpm.model.bpmn.instance.domain.auditingandmonitoring.Monitoring;
 import org.camunda.bpm.model.bpmn.instance.domain.processes.Process;

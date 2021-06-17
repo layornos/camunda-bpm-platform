@@ -23,7 +23,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.BpmnModelElementInstance;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaList;
 import org.camunda.bpm.model.xml.ModelBuilder;

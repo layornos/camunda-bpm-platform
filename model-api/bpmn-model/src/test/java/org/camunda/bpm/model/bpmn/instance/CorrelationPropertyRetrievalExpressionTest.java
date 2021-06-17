@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.instance;
 
-import org.camunda.bpm.model.bpmn.impl.instance.MessagePath;
+import org.camunda.bpm.model.bpmn.impl.instance.domain.expressions.MessagePath;
 import org.camunda.bpm.model.bpmn.instance.paradigm.core.BaseElement;
 
 import java.util.Arrays;

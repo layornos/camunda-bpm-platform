@@ -16,7 +16,7 @@
  */
 package org.camunda.bpm.model.bpmn.impl.instance.camunda;
 
-import org.camunda.bpm.model.bpmn.impl.instance.BpmnModelElementInstanceImpl;
+import org.camunda.bpm.model.bpmn.impl.instance.bpmnmodelelement.BpmnModelElementInstanceImpl;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaExpression;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaField;
 import org.camunda.bpm.model.bpmn.instance.camunda.CamundaString;
