@@ -1,4 +1,4 @@
 {
-  "FeatureName":"Default",
-  "Layer":"default"
+  "FeatureName":"root.paradigm",
+  "Layer":"paradigm"
 }
